@@ -4,8 +4,9 @@ $(document).ready(function(){
   var isSet = false;
 
   setInterval(function(){
-    currentTime = moment().format("hh:mm");
-    $('#time').text(currentTime);
+    currentTime = moment().format("HH:mm");
+    twelveHourTime = moment().format("hh:mm");
+    $('#time').text(twelveHourTime);
     if (currentTime === alarm && isSet === true) {
       alert("Your time is up.");
       isSet = false;
