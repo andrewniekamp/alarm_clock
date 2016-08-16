@@ -8,13 +8,15 @@
     <script type="text/javascript" src="build/js/app.js"></script>
   </head>
   <body>
-    <div id="time">
+    <div class="container">
+      <div class="jumbotron">
+        <h1 id="time"></h1>
+      </div>
+      <form id="alarm-clock-form">
+        <label for="set-alarm"></label>
+        <input type="time" id="set-alarm">
+        <button type="submit">Submit</button>
+      </form>
     </div>
-
-    <form id="alarm-clock-form">
-      <label for="set-alarm"></label>
-      <input type="time" id="set-alarm">
-      <button type="submit">Submit</button>
-    </form>
   </body>
 </html>

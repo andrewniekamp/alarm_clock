@@ -17,6 +17,4 @@ $(document).ready(function(){
     isSet = true;
     alarm = $("#set-alarm").val();
   });
-
-
 });
